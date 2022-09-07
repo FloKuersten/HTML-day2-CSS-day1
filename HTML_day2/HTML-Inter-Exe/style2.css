@@ -1,0 +1,57 @@
+/*__________ Header Styling Start __________ */
+#logo {
+	height: 100px;
+}
+#logo, nav {
+	float:  left;
+
+}
+.navLink {
+	line-height: 100px;
+	font-size: 300%;
+	padding: 25px;
+	margin-left: 50px;
+	color:  black;
+	text-decoration: none;
+	background-image: url(https://st3.depositphotos.com/2978065/17553/v/600/depositphotos_175530452-stock-video-animation-user-interface-data-hud.jpg);
+	border-radius: 25px;
+
+}
+/*__________ Header Styling End __________ */
+
+/*__________ Content Styling Start __________ */
+#container {
+	clear:  both;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding: 50px;
+
+
+}
+body {
+  	background-image: url(https://wallpaper.dog/large/990328.jpg);
+  	text-color: ghostwhite;
+}
+
+h2, h1, h3, h4 {
+	border-top: 3px solid ghostwhite;
+	color: white;
+}
+
+p {
+	color: white;
+}
+
+label {
+	color: white;
+}
+/*__________ Content Styling End __________ */
+
+/*__________ Footer Styling Start __________ */
+footer {
+	height: 300px;
+	text-align: center;
+	padding:  25px;
+	border-top: 3px solid ghostwhite;
+}
+/*__________ Footer Styling End __________ */

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="style2.css" />
+    <title>My Website</title>
+  </head>
+
+  <body>
+    <header>
+      <a id="logoLink" href="page1.html">
+        <img
+          height="100px"
+          width="100px"
+          src="https://static.vecteezy.com/system/resources/previews/004/753/002/original/custom-coding-icon-shadowed-detailed-custom-coding-logo-free-vector.jpg"
+          alt="logo"
+          id="logo"
+        />
+      </a>
+      <nav>
+        <a class="navLink" href="page1.html">Home</a>
+        <a class="navLink" href="page2.html">About Us</a>
+        <a class="navLink" href="page3.html">Contact Us</a>
+        <!-- href and text for nav links need to be filled in -->
+      </nav>
+    </header>
+
+    <div id="container">
+      <form action="">
+        <h1>Contact Form</h1>
+
+        <label for="firstname">First Name:</label>
+        <input
+          type="text"
+          placeholder="Firstname"
+          id="firstname"
+          name="firstname"
+        /><br /><br />
+
+        <label for="lastname">Last Name:</label>
+        <input
+          type="text"
+          placeholder="Lastname"
+          id="lastname"
+          name="lastname"
+        /><br /><br />
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" /><br /><br />
+
+        <label for="address">Message</label><br />
+        <textarea
+          placeholder="Write us a message here..."
+          id="message"
+          name="message"
+          cols="50"
+          rows="10"
+        ></textarea>
+
+        <br /><br />
+
+        <input type="button" value="Submit" />
+      </form>
+    </div>
+
+    <footer>
+      <p>You can read all our terms and conditions <a href="#">here</a></p>
+      <!-- href for tos need to be filled in -->
+    </footer>
+  </body>
+</html>
