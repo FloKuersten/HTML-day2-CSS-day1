@@ -1,0 +1,19 @@
+
+/* CLASS SELECTORS */
+body{
+    background-color: lightgrey;
+}
+
+.intro {
+    color: blue;
+}
+
+.description {
+    color: green;
+}
+
+
+/* ID SELECTORS */
+#heading {
+    color: red;
+}
